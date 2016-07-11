@@ -1,0 +1,6 @@
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\bin\Debug\ch2.Observer.exe.config
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\bin\Debug\ch2.Observer.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\bin\Debug\ch2.Observer.pdb
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\obj\Debug\ch2. Observer.csprojResolveAssemblyReference.cache
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\obj\Debug\ch2.Observer.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch2. Observer\obj\Debug\ch2.Observer.pdb

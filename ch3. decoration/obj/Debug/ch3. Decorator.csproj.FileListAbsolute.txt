@@ -1,0 +1,6 @@
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\bin\Debug\ch3.decoration.exe.config
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\bin\Debug\ch3.decoration.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\bin\Debug\ch3.decoration.pdb
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\obj\Debug\ch3. Decorator.csprojResolveAssemblyReference.cache
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\obj\Debug\ch3.decoration.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\ch3. decoration\obj\Debug\ch3.decoration.pdb
