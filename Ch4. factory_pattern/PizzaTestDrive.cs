@@ -18,7 +18,12 @@ namespace Ch4.factory_pattern
             Pizza pizza = nyStore.orderPizza("cheese");
             Console.WriteLine("Ethan ordered a "+pizza.Name + "\n");
             pizza = chicagoStore.orderPizza("cheese");
-            Console.WriteLine("Joel ordered a "+pizza.Name);
+            Console.WriteLine("Joel ordered a "+pizza.Name + "\n");
+
+            Pizza pizza2 = nyStore.orderPizza("clam");
+            Console.WriteLine("Ethan ordered a " + pizza2.Name + "\n");
+            pizza2 = chicagoStore.orderPizza("clam");
+            Console.WriteLine("Joel ordered a " + pizza2.Name);
         }
     }
 }

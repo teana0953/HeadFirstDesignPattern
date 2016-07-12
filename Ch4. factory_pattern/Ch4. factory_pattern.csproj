@@ -43,10 +43,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PizzaIngredientType\BlackOlives.cs" />
+    <Compile Include="PizzaIngredientType\ChicagoPizzaIngredientFactory.cs" />
+    <Compile Include="PizzaIngredientType\EggPlant.cs" />
+    <Compile Include="PizzaIngredientType\FrozenClams.cs" />
+    <Compile Include="PizzaIngredientType\ICheese.cs" />
+    <Compile Include="PizzaIngredientType\IClams.cs" />
+    <Compile Include="PizzaIngredientType\IDough.cs" />
+    <Compile Include="PizzaIngredientType\FreshClams.cs" />
+    <Compile Include="PizzaIngredientType\Garlic.cs" />
+    <Compile Include="PizzaIngredientType\MarinaraSauce.cs" />
+    <Compile Include="PizzaIngredientType\MozzarellaCheese.cs" />
+    <Compile Include="PizzaIngredientType\Mushroom.cs" />
+    <Compile Include="PizzaIngredientType\NYPizzaIngredientFactory.cs" />
+    <Compile Include="PizzaIngredientType\Onion.cs" />
+    <Compile Include="PizzaIngredientType\IPepperoni.cs" />
+    <Compile Include="PizzaIngredientType\IPizzaIngredientFactory.cs" />
+    <Compile Include="PizzaIngredientType\PlumTomatoSauce.cs" />
+    <Compile Include="PizzaIngredientType\RedPepper.cs" />
+    <Compile Include="PizzaIngredientType\ReggianoCheese.cs" />
+    <Compile Include="PizzaIngredientType\ISauce.cs" />
+    <Compile Include="PizzaIngredientType\SlicedPepperoni.cs" />
+    <Compile Include="PizzaIngredientType\Spinach.cs" />
+    <Compile Include="PizzaIngredientType\ThickCrustDough.cs" />
+    <Compile Include="PizzaIngredientType\ThinCrustDough.cs" />
+    <Compile Include="PizzaIngredientType\IVeggies.cs" />
     <Compile Include="PizzaStoreType\ChicagoStylePizzaStore.cs" />
     <Compile Include="PizzaStoreType\NYStylePizzaStore.cs" />
-    <Compile Include="PizzaType\ChicagoStyleCheesePizza.cs" />
-    <Compile Include="PizzaType\NYStyleCheesePizza.cs" />
+    <Compile Include="PizzaType\CheesePizza.cs" />
+    <Compile Include="PizzaType\ClamPizza.cs" />
     <Compile Include="PizzaType\Pizza.cs" />
     <Compile Include="PizzaStoreType\PizzaStore.cs" />
     <Compile Include="PizzaTestDrive.cs" />

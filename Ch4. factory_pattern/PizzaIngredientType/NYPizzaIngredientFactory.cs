@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace Ch4.factory_pattern.PizzaIngredientType
 {
-    public class NYPizzaIngredientFactory : PizzaIngredientFactory
+    public class NYPizzaIngredientFactory : IPizzaIngredientFactory
     {
-        public override ICheese CreateCheese()
+        public ICheese CreateCheese()
         {
             return new ReggianoCheese();
         }
 
-        public override IClams CreateClam()
+        public IClams CreateClam()
         {
             return new FreshClams();
         }
 
-        public override IDough CreateDough()
+        public IDough CreateDough()
         {
             return new ThinCrustDough();
         }
 
-        public override IPepperoni CreatePepperoni()
+        public IPepperoni CreatePepperoni()
         {
             return new SlicedPepperoni();
         }
 
-        public override ISauce CreateSauce()
+        public ISauce CreateSauce()
         {
             return new MarinaraSauce();
         }
 
-        public override IVeggies[] CreateVeggies()
+        public IVeggies[] CreateVeggies()
         {
             IVeggies[] veggies = {new Garlic(), new Onion(), new Mushroom(), new RedPepper() };
             return veggies;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch4.factory_pattern.PizzaIngredientType;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,26 +14,17 @@ namespace Ch4.factory_pattern.PizzaType
         public string Name { get {return name; } set {name = value; } }
 
         #region Members
-        protected string dough;     // 麵糰
-        protected string sauce;
-        protected List<string> toppings = new List<string>();
-        //protected ICheese cheese;
-        //protected IPepperoni pepperoni;
-        //protected IClams clam;
+        protected IDough dough;     // 麵糰
+        protected ISauce sauce;
+        protected ICheese cheese;
+        protected IPepperoni pepperoni;
+        protected IClams clam;
+        protected IVeggies[] veggies;
+        
         #endregion
 
-        public virtual void Prepare()
-        {
-            Console.WriteLine("Preparing " + Name);
-            Console.WriteLine("Tossing dough..." + dough);
-            Console.WriteLine("Adding sauce..." + sauce);
-            Console.WriteLine("Adding toppings: ");
-            for (int i = 0; i < toppings.Count; i++)
-            {
-                Console.WriteLine(" " + toppings[i]);
-            }
-
-        }
+        public abstract string Prepare();
+       
         public virtual void Bake()
         {
             Console.WriteLine("Bake for 25 mins at 350");

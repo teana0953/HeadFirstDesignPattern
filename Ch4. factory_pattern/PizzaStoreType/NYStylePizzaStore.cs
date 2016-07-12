@@ -1,4 +1,5 @@
-﻿using Ch4.factory_pattern.PizzaType;
+﻿using Ch4.factory_pattern.PizzaIngredientType;
+using Ch4.factory_pattern.PizzaType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,23 @@ namespace Ch4.factory_pattern.PizzaStoreType
 {
     public class NYStylePizzaStore : PizzaStore     // concreteCreator
     {
-        public override Pizza createPizza(string type)
+        protected override Pizza createPizza(string type)
         {
+            Pizza pizza = null;
+            IPizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();
+
             switch (type)
             {
                 case "cheese":
-                    return new NYStyleCheesePizza();
-                default:
-                    return null;
+                    pizza = new CheesePizza(ingredientFactory);
+                    pizza.Name = "New York Style Cheese Pizza";
+                    break;
+                case "clam":
+                    pizza = new ClamPizza(ingredientFactory);
+                    pizza.Name = "New York Style Clam Pizza";
+                    break;
             }
+            return pizza;
         }
     }
 }

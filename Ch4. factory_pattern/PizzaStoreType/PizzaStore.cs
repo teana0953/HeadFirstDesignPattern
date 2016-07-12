@@ -14,13 +14,13 @@ namespace Ch4.factory_pattern.PizzaStoreType
         {
             Pizza pizza;
             pizza = createPizza(type);
-            pizza.Prepare();
+            Console.WriteLine(pizza.Prepare());
             pizza.Bake();
             pizza.Cut();
             pizza.Box();
             return pizza;
         }
 
-        public abstract Pizza createPizza(string type);     // 根據不同加盟店其製作pizza的方式會有差異
+        protected abstract Pizza createPizza(string type);     // 根據不同加盟店其製作pizza的方式會有差異
     }
 }

@@ -1,6 +1,12 @@
-﻿namespace Ch4.factory_pattern.PizzaIngredientType
+﻿using System;
+
+namespace Ch4.factory_pattern.PizzaIngredientType
 {
-    internal class MarinaraSauce : Sauce
+    public class MarinaraSauce : ISauce
     {
+        public string toString()
+        {
+            return "MarinaraSauce";
+        }
     }
 }
