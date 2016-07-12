@@ -1,0 +1,6 @@
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\bin\Debug\Ch4.factory_pattern.exe.config
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\bin\Debug\Ch4.factory_pattern.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\bin\Debug\Ch4.factory_pattern.pdb
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\obj\Debug\Ch4. factory_pattern.csprojResolveAssemblyReference.cache
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\obj\Debug\Ch4.factory_pattern.exe
+C:\Users\tina.liang\Documents\Visual Studio 2015\Projects\practice\HeadFirstDesignPattern\Ch4. factory_pattern\obj\Debug\Ch4.factory_pattern.pdb
